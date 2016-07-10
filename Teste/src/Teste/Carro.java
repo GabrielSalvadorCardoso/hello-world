@@ -7,5 +7,9 @@ public class Carro {
 		this.nome = nome;
 		this.preco = preco;
 	}
+	
+	public String toString(){
+		return String.format("Nome: "+this.nome+" Preco: "+this.preco);
+	}
 
 }
