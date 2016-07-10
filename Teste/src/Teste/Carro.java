@@ -1,15 +1,9 @@
 package Teste;
 public class Carro {
-	String nome;
-	int preco;
+	String fabricante="Wolksvagen";
+	int cod_fab=1234;
 
-	public Carro(String nome, int preco) {
-		this.nome = nome;
-		this.preco = preco;
-	}
-	
 	public String toString(){
-		return String.format("Nome: "+this.nome+" Preco: "+this.preco);
+		return String.format("Fabricante: "+this.fabricante+" Codigo do Fabricante: "+this.cod_fab);
 	}
-
 }
